@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Apresentacao />
+      <h1>tecnologias</h1>
     </>
   );
 }

@@ -22,9 +22,10 @@ body {
 
 /* Apresentação:  */
 
-#apresentacao {
+/* #apresentacao .container {
   background-color: rgb(51, 45, 45) !important;
   color: white;
   display: flex;
   flex-wrap: wrap;
-}
+  padding: 20px 0;
+} */

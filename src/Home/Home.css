@@ -1,6 +1,46 @@
-#apresentacao {
+div #apresentacao {
   background-color: rgb(51, 45, 45) !important;
+}
+
+#apresentacao .container {
   color: white;
   display: flex;
+
+  padding: 20px 0;
+  gap: 70px;
+}
+
+#apresentacao .texto-apresentacao {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  padding: 20px;
+  flex: 1; /* Faz com que o texto ocupe o espaço restante */
+}
+
+#apresentacao .texto-apresentacao p {
+  line-height: 32px;
+  text-align: justify;
+}
+
+#apresentacao h1 {
+  font-size: 50px;
+}
+
+#apresentacao h3 {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 770px) {
+  #apresentacao .container {
+    flex-wrap: wrap;
+    /* gap: 5px; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #apresentacao .container {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
 }
