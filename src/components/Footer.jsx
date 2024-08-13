@@ -1,0 +1,60 @@
+import React from "react";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBCol,
+  MDBRow,
+  MDBIcon,
+  MDBBtn,
+} from "mdb-react-ui-kit";
+import { FaReact } from "react-icons/fa";
+
+export default function Footer() {
+  return (
+    <MDBFooter className="bg-dark text-center text-white">
+      <MDBContainer className="p-4 pb-0">
+        <section className="mb-4">
+          <MDBBtn
+            outline
+            color="light"
+            floating
+            className="m-1"
+            href="#!"
+            role="button"
+          >
+            <MDBIcon far icon="envelope" />
+          </MDBBtn>
+
+          <MDBBtn
+            outline
+            color="light"
+            floating
+            className="m-1"
+            href="#!"
+            role="button"
+          >
+            <MDBIcon fab icon="linkedin-in" />
+          </MDBBtn>
+
+          <MDBBtn
+            outline
+            color="light"
+            floating
+            className="m-1"
+            href="#!"
+            role="button"
+          >
+            <MDBIcon fab icon="github" />
+          </MDBBtn>
+        </section>
+      </MDBContainer>
+
+      <div
+        className="text-center p-3"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+      >
+        Desenvolvido por: Lucas Menezes | <FaReact /> <MDBIcon fab icon="mdb" />
+      </div>
+    </MDBFooter>
+  );
+}
