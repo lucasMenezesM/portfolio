@@ -5,7 +5,7 @@ export default function Apresentacao() {
   return (
     <div id="apresentacao">
       <div className="container">
-        <MDBCol lg="3" md="5" sm="6" xs="2" className="mb-4">
+        <MDBCol lg="2" md="5" sm="6" xs="2" className="mb-4">
           <img
             src="/images/profile-image.jpg"
             className="img-fluid rounded-circle"
@@ -19,13 +19,14 @@ export default function Apresentacao() {
             Desenvolvedor Web <MDBIcon className="ms-2" fas icon="code" />
           </h3>
           <p>
-            Atualmente estou cursando a Graduação de Sistemas de Informação.
-            Estudo frequentemente diferentes tecnologias e descobri como uma das
-            minhas maiores paixões a possibilidade de criar e dar vida a ideias
-            por meio da programação, desenvolvendo projetos e encontrando
-            desafios, com o objetivo de sempre expandir meu conhecimento. Também
-            compartilho a paixão por aprender novas tecnologias e conhecer novas
-            ferramentas da área.
+            Atualmente estou cursando a Graduação de{" "}
+            <span className="underline">Sistemas de Informação.</span> Estudo
+            frequentemente diferentes tecnologias e descobri como uma das minhas
+            maiores paixões a possibilidade de criar e dar vida a ideias por
+            meio da programação, desenvolvendo projetos e encontrando desafios,
+            com o objetivo de sempre expandir meu conhecimento. Também
+            compartilho uma paixão por aprender novas ferramentas e tecnologias
+            da área.
           </p>
 
           <div className="social-media">
@@ -34,7 +35,7 @@ export default function Apresentacao() {
               target="_blank"
               color="light"
               floating
-              className="m-1"
+              className="m-1 social-media-icon"
               href="https://github.com/lucasMenezesM"
               role="button"
             >
@@ -46,7 +47,7 @@ export default function Apresentacao() {
               color="light"
               target="_blank"
               floating
-              className="m-1"
+              className="m-1 social-media-icon"
               href="mailto:livedolux@gmail.com"
               role="button"
             >
@@ -58,7 +59,7 @@ export default function Apresentacao() {
               target="_blank"
               color="light"
               floating
-              className="m-1"
+              className="m-1 social-media-icon"
               href="https://www.linkedin.com/in/lucas-menezes-023600279/"
               role="button"
             >

@@ -20,6 +20,22 @@ body {
   flex-wrap: wrap;
 }
 
+#navbar a {
+  transition: all 0.2s;
+  &:hover:not(.titulo-navbar) {
+    text-decoration: underline;
+    transform: scale(1.04);
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* Apresentação:  */
 
 /* #apresentacao .container {
