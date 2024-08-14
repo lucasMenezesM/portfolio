@@ -66,6 +66,7 @@ div #apresentacao {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
 #tecnologias .lista-tecnologias div {
@@ -196,6 +197,9 @@ div #apresentacao {
 @media screen and (max-width: 560px) {
   #tecnologias .container {
     border: none;
+  }
+  #apresentacao img {
+    width: 290px;
   }
 }
 

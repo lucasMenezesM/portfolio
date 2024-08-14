@@ -12,7 +12,7 @@ export default function NavBar() {
             Portfolio - Lucas Menezes{" "}
             <MDBIcon className="ms-2" fas icon="laptop" />
           </Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="me-auto links-navbar">
             <Nav.Link className="text-white" href="#tecnologias">
               Tecnologias
             </Nav.Link>

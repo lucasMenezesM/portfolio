@@ -25,8 +25,9 @@ export default function Projetos() {
             Alguns Projetos
           </h3>
           <p>
-            A seguir, alguns projetos feitos, com suas tecnologias usadas e um
-            link para o repositório no github.
+            A seguir, apresento alguns dos projetos que desenvolvi, detalhando
+            as tecnologias utilizadas em cada um deles, juntamente com um link
+            direto para o respectivo repositório no GitHub.
           </p>
         </div>
         {isOpen && (
