@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaPython } from "react-icons/fa";
 import ProjetoItem from "./ProjetoItem";
 
 export default function Projetos() {
@@ -12,7 +12,13 @@ export default function Projetos() {
             key={"1"}
             titulo={"API-Books | Flask"}
             descricao={"API que faz o gerenciamento de uma biblioteca virtual."}
-            tecnologiasUsadas={["Python", "Flask", "PostgreSQL"]}
+            tecnologiasUsadas={[`Python`, "Flask", "PostgreSQL"]}
+          />
+          <ProjetoItem
+            key={"2"}
+            titulo={"API"}
+            descricao={"projeto feito de api"}
+            tecnologiasUsadas={["javascript", "node"]}
           />
           <ProjetoItem
             key={"2"}

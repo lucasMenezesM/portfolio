@@ -1,18 +1,16 @@
-import { MDBIcon } from "mdb-react-ui-kit";
 import {
   FaHtml5,
   FaCss3,
   FaPython,
   FaPhp,
   FaNode,
-  FaGitAlt,
   FaGit,
   FaReact,
   FaBootstrap,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiFlask, SiMysql, SiPandas } from "react-icons/si";
-import { DiMongodb } from "react-icons/di";
+import { SiFlask, SiPandas } from "react-icons/si";
+import { DiMongodb, DiMysql } from "react-icons/di";
 
 export default function Tecnologias() {
   return (
@@ -51,7 +49,7 @@ export default function Tecnologias() {
             <p>PHP</p>
           </div>
           <div>
-            <SiMysql size={50} />
+            <DiMysql size={50} />
             <p>MySQL</p>
           </div>
           <div>
