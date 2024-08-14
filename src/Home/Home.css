@@ -204,10 +204,12 @@ div #apresentacao {
 
   .imagem-container {
     width: 100%;
+    display: flex;
   }
 
   #apresentacao img {
-    width: 290px;
+    width: 270px;
+    margin: 0 auto;
   }
 }
 
@@ -227,5 +229,11 @@ div #apresentacao {
 @media screen and (max-width: 480px) {
   .link-repositorio-fullstack {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #apresentacao img {
+    width: 240px;
   }
 }
