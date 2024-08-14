@@ -136,12 +136,16 @@ div #apresentacao {
   font-size: 13px;
 }
 
-.link-repositorio {
+.link-repositorio-container {
   transition: 0.9s;
   :hover {
     transform: scale(1.04);
     transition: 0.4s;
   }
+}
+
+.link-repositorio-fullstack {
+  margin-right: 10px;
 }
 
 /* Pagina Contatos */
@@ -187,5 +191,11 @@ div #apresentacao {
   #apresentacao .container {
     flex-wrap: wrap;
     gap: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .link-repositorio-fullstack {
+    margin-bottom: 10px;
   }
 }

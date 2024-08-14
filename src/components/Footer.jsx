@@ -19,7 +19,7 @@ export default function Footer() {
             color="light"
             floating
             className="m-1"
-            href="#!"
+            href="mailto:livedolux@gmail.com"
             role="button"
           >
             <MDBIcon far icon="envelope" />
@@ -30,7 +30,8 @@ export default function Footer() {
             color="light"
             floating
             className="m-1"
-            href="#!"
+            href="https://www.linkedin.com/in/lucas-menezes-023600279/"
+            target="_blank"
             role="button"
           >
             <MDBIcon fab icon="linkedin-in" />
@@ -41,7 +42,8 @@ export default function Footer() {
             color="light"
             floating
             className="m-1"
-            href="#!"
+            href="https://github.com/lucasMenezesM"
+            target="_blank"
             role="button"
           >
             <MDBIcon fab icon="github" />
