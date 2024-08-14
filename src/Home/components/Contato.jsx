@@ -5,26 +5,24 @@ import { MdEmail } from "react-icons/md";
 export default function Contato() {
   return (
     <div id="contato">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
+      <div className="container col-xxl-8 px-4 py-5">
+        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div className="col-10 col-sm-8 col-lg-6">
             <img
               src="/images/contato-imagem.jpg"
-              class="d-block mx-lg-auto img-fluid"
+              className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="700"
               height="500"
               loading="lazy"
             ></img>
           </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Contato:
-            </h1>
-            <p class="lead">
+          <div className="col-lg-6">
+            <h3>Contato:</h3>
+            <p className="lead">
               Entre em contato comigo pelas redes sociais abaixo:
             </p>
-            <div className="lista-contatos">
+            <div classNameName="lista-contatos">
               <p>
                 <FaWhatsapp /> Tel: +55 (22) 99831-4257
               </p>
@@ -33,30 +31,31 @@ export default function Contato() {
                 <MdEmail /> Email: livedolux@gmail.com{" "}
               </p>
             </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <MDBBtn
-                className="link-contato"
+                classNameName="link-contato"
                 href="https://github.com/lucasMenezesM"
                 target="_blank"
                 size="sm"
               >
-                GitHub <MDBIcon className="ms-1" fab icon="github" />
+                GitHub <MDBIcon classNameName="ms-1" fab icon="github" />
               </MDBBtn>
               <MDBBtn
-                className="link-contato"
+                classNameName="link-contato"
                 href="https://www.linkedin.com/in/lucas-menezes-023600279/"
                 target="_blank"
                 size="sm"
               >
-                Linkedin <MDBIcon className="ms-1" fab icon="linkedin-in" />
+                Linkedin <MDBIcon classNameName="ms-1" fab icon="linkedin-in" />
               </MDBBtn>
               <MDBBtn
-                className="link-contato"
+                classNameName="link-contato"
                 href="mailto:livedolux@gmail.com"
                 target="_blank"
                 size="sm"
               >
-                Envie um email <MDBIcon className="ms-1" far icon="envelope" />
+                Envie um email{" "}
+                <MDBIcon classNameName="ms-1" far icon="envelope" />
               </MDBBtn>
             </div>
           </div>

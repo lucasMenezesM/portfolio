@@ -13,14 +13,14 @@ export default function NavBar() {
             <MDBIcon className="ms-2" fas icon="laptop" />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link className="text-white" href="#sobre">
-              Sobre
-            </Nav.Link>
             <Nav.Link className="text-white" href="#tecnologias">
               Tecnologias
             </Nav.Link>
             <Nav.Link className="text-white" href="#projetos">
               Projetos
+            </Nav.Link>
+            <Nav.Link className="text-white" href="#formacao">
+              Formação
             </Nav.Link>
             <Nav.Link className="text-white" href="#contato">
               Contato

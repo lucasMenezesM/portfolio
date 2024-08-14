@@ -1,5 +1,6 @@
 import Apresentacao from "./components/Apresentacao";
 import Contato from "./components/Contato";
+import Formacao from "./components/Formacao";
 // import Projetos from "./components/ProjetosAntigo";
 import Projetos from "./components/Projetos";
 import Tecnologias from "./components/Tecnologias";
@@ -11,6 +12,7 @@ export default function Home() {
       <Apresentacao />
       <Tecnologias />
       <Projetos />
+      <Formacao />
       <Contato />
     </>
   );

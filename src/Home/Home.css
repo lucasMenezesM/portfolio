@@ -153,6 +153,23 @@ div #apresentacao {
   }
 }
 
+/* Seção formacao */
+
+#formacao {
+  margin-top: 85px;
+}
+
+.formacao-container {
+  border-left: 5px solid rgb(51, 45, 45);
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.formacao-container p {
+  margin: 0;
+}
+
 @media screen and (max-width: 770px) {
   .projeto-box {
     width: calc(100% - 10px);
