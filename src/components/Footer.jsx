@@ -3,6 +3,7 @@ import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 import { FaReact } from "react-icons/fa";
 
 export default function Footer() {
+  const ano = new Date().getFullYear();
   return (
     <MDBFooter className="bg-dark text-center text-white">
       <MDBContainer className="p-4 pb-0">
@@ -48,7 +49,8 @@ export default function Footer() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        Desenvolvido por: Lucas Menezes | <FaReact /> <MDBIcon fab icon="mdb" />
+        Desenvolvido por: Lucas Menezes com React <FaReact /> | © {ano} - Todos
+        os direitos reservados.
       </div>
     </MDBFooter>
   );

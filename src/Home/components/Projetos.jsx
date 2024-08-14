@@ -98,7 +98,7 @@ export default function Projetos() {
             <ProjetoItem
               titulo={"Dice Roller | Flutter"}
               descricao={
-                "Projeto de um jogo de dados usando a tecnologia flutter"
+                "Projeto de um jogo de dados usando a tecnologia flutter."
               }
               tecnologias={["Dart", "Flutter"]}
               linkRepositorio1="https://github.com/lucasMenezesM/diceRoller"
