@@ -5,7 +5,7 @@ export default function Apresentacao() {
   return (
     <div id="apresentacao">
       <div className="container">
-        <MDBCol lg="2" md="5" sm="6" xs="0" className="mb-4">
+        <MDBCol lg="2" md="5" sm="6" className="mb-4 imagem-container">
           <img
             src="/images/profile-image.jpg"
             className="img-fluid rounded-circle"

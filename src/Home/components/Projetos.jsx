@@ -35,7 +35,7 @@ export default function Projetos() {
             <ProjetoItem
               titulo={"API Books | Flask"}
               descricao={
-                "API feita em Python com framework FLASK. O objetivo dessa API é fazer o gerenciamento, incluindo operações CRUD, de uma biblioteca virtual. Essa API conta com uma integração do banco de dados PostgreSQL, onde é usado o auxílio do flask SQLalchemy."
+                "API feita em Python com framework FLASK. O objetivo dessa API é fazer o gerenciamento, incluindo operações CRUD, de uma biblioteca virtual com sistemas de autenticação. Essa API conta com uma integração do banco de dados PostgreSQL, onde é usado o auxílio do flask SQLalchemy."
               }
               tecnologias={["Python", "Flask", "PostgreSQL"]}
               linkRepositorio1="https://github.com/lucasMenezesM/flask-books-api"
@@ -53,7 +53,7 @@ export default function Projetos() {
             <ProjetoItem
               titulo={"Projeto Full stack - Task Manager | MERN Stack"}
               descricao={
-                "Projeto Full stack com a MERN Stack, composta por React no front end, NodeJS e express no back end para o desenvolvimento da API e a integração do banco de dados não relacional MongoDB. O objetivo dessa aplicação é fazer o gerenciamento de tarefas, incluindo operações CRUD."
+                "Projeto Full stack feito com a MERN Stack, composta por React no front end, NodeJS e Express no back end para o desenvolvimento da API e a integração do banco de dados não relacional MongoDB. O objetivo dessa aplicação é fazer o gerenciamento de tarefas e autenticação de usuários, incluindo operações CRUD."
               }
               tecnologias={["NodeJS", "ReactJS", "MongoDB", "Express"]}
               fullStack={true}
@@ -62,18 +62,9 @@ export default function Projetos() {
             />
 
             <ProjetoItem
-              titulo={"Pong Game | Python"}
-              descricao={
-                "Projeto do jogo Pong Game, usando python com auxílio da biblioteca de interface gráfica Turtle."
-              }
-              tecnologias={["Python", "Turtle"]}
-              linkRepositorio1="https://github.com/lucasMenezesM/pong-game-in-Python"
-            />
-
-            <ProjetoItem
               titulo={"Gelateria | React"}
               descricao={
-                "Single Page Aplication criada com a biblioteca ReactJS. Composto por react-router-dom e estilizado com Styled-Components"
+                "Single Page Aplication criada com a biblioteca ReactJS. Composto por react-router-dom para gerenciar as rotas da aplicação e estilizado com Styled-Components."
               }
               tecnologias={["ReactJs", "Styled-Components"]}
               linkRepositorio1="https://github.com/lucasMenezesM/gelateria"
@@ -89,10 +80,19 @@ export default function Projetos() {
             <ProjetoItem
               titulo={"GameList | React"}
               descricao={
-                "Aplicação simples para fazer o gerenciamento de jogos com auxílio do Local Storage do navegador para persistir dados."
+                "Aplicação simples em React para fazer o gerenciamento de jogos com auxílio do Local Storage do navegador para persistir dados."
               }
               tecnologias={["ReactJs"]}
               linkRepositorio1="https://github.com/lucasMenezesM/GameList"
+            />
+
+            <ProjetoItem
+              titulo={"Pong Game | Python"}
+              descricao={
+                "Projeto do jogo Pong Game, usando python com auxílio da biblioteca de interface gráfica Turtle."
+              }
+              tecnologias={["Python", "Turtle"]}
+              linkRepositorio1="https://github.com/lucasMenezesM/pong-game-in-Python"
             />
 
             <ProjetoItem

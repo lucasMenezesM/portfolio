@@ -114,7 +114,7 @@ div #apresentacao {
   /* border-bottom: 2px solid rgb(51, 45, 45); */
 }
 
-.projeto-box p {
+#projetos p {
   line-height: 30px;
   text-align: justify;
 }
@@ -158,6 +158,21 @@ div #apresentacao {
   }
 }
 
+#contato ul {
+  padding: 0;
+  margin-top: 35px;
+}
+
+#contato li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+#contato p {
+  text-align: justify;
+  line-height: 32px;
+}
+
 /* Seção formacao */
 
 #formacao {
@@ -184,13 +199,15 @@ div #apresentacao {
 @media screen and (max-width: 770px) {
   #apresentacao .container {
     flex-wrap: wrap;
+    gap: 0px;
   }
-}
 
-@media screen and (max-width: 600px) {
-  #apresentacao .container {
-    flex-wrap: wrap;
-    gap: 5px;
+  .imagem-container {
+    width: 100%;
+  }
+
+  #apresentacao img {
+    width: 290px;
   }
 }
 
@@ -198,8 +215,12 @@ div #apresentacao {
   #tecnologias .container {
     border: none;
   }
-  #apresentacao img {
-    width: 290px;
+  #apresentacao .texto-apresentacao h1 {
+    font-size: 35px;
+  }
+
+  #apresentacao .texto-apresentacao h3 {
+    font-size: 22px;
   }
 }
 

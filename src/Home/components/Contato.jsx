@@ -20,16 +20,19 @@ export default function Contato() {
           <div className="col-lg-6">
             <h3>Contato:</h3>
             <p className="lead">
-              Entre em contato comigo pelas redes sociais abaixo:
+              Sinta-se à vontade para entrar em contato comigo através das redes
+              sociais abaixo. Seja para discutir um projeto, trocar ideias ou
+              simplesmente conectar, estou à disposição!
             </p>
             <div classNameName="lista-contatos">
-              <p>
-                <FaWhatsapp /> Tel: +55 (22) 99831-4257
-              </p>
-              <p>
-                {" "}
-                <MdEmail /> Email: livedolux@gmail.com{" "}
-              </p>
+              <ul>
+                <li>
+                  <FaWhatsapp /> Tel: +55 (22) 99831-4257
+                </li>
+                <li>
+                  <MdEmail /> Email: livedolux@gmail.com{" "}
+                </li>
+              </ul>
             </div>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <MDBBtn

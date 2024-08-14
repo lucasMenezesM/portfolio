@@ -40,6 +40,20 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 769px) {
+  .titulo-navbar {
+    margin: 0 auto;
+  }
+  .links-navbar {
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
 /* Apresentação:  */
 
 /* #apresentacao .container {
