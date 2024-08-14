@@ -1,5 +1,5 @@
 // import "../Home.css";
-import { MDBRow, MDBCol, MDBBtn, MDBIcon } from "mdb-react-ui-kit";
+import { MDBCol, MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 
 export default function Apresentacao() {
   return (
@@ -44,18 +44,6 @@ export default function Apresentacao() {
 
             <MDBBtn
               outline
-              color="light"
-              target="_blank"
-              floating
-              className="m-1 social-media-icon"
-              href="mailto:livedolux@gmail.com"
-              role="button"
-            >
-              <MDBIcon size="2x" far icon="envelope" />
-            </MDBBtn>
-
-            <MDBBtn
-              outline
               target="_blank"
               color="light"
               floating
@@ -64,6 +52,18 @@ export default function Apresentacao() {
               role="button"
             >
               <MDBIcon size="2x" fab icon="linkedin-in" />
+            </MDBBtn>
+
+            <MDBBtn
+              outline
+              color="light"
+              target="_blank"
+              floating
+              className="m-1 social-media-icon"
+              href="mailto:livedolux@gmail.com"
+              role="button"
+            >
+              <MDBIcon size="2x" far icon="envelope" />
             </MDBBtn>
           </div>
         </div>

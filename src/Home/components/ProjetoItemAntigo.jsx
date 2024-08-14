@@ -1,10 +1,11 @@
+import { FaGithub } from "react-icons/fa";
 import { MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 import { useState } from "react";
 
 export default function ProjetoItem({
   titulo,
   descricao,
-  tecnologias,
+  tecnologiasUsadas,
   linkRepositorio = "",
 }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -16,29 +17,30 @@ export default function ProjetoItem({
     <div className="projeto-box">
       <h4>{titulo}</h4>
       <p>{descricao}</p>
-      <h5>
-        {" "}
-        <button className="tecnologias-btn" onClick={handleIsOpen}>
-          {isOpen ? (
-            <MDBIcon fas icon="angle-down" />
-          ) : (
-            <MDBIcon fas icon="angle-up" />
-          )}
-        </button>
-        Tecnologias usadas
-      </h5>
-      {isOpen && (
-        <div className="tecnologias-usadas-projetos">
+
+      <div className="tecnologias-projeto">
+        <h6>
+          {" "}
+          <button className="tecnologias-btn" onClick={handleIsOpen}>
+            {isOpen ? (
+              <MDBIcon color="white" fas icon="angle-down" />
+            ) : (
+              <MDBIcon color="white" fas icon="angle-up" />
+            )}
+          </button>
+          Tecnologias usadas:
+        </h6>
+        {isOpen && (
           <ul>
-            {tecnologias.map((tecnologia) => {
-              return <li>tecnologia 1</li>;
+            {tecnologiasUsadas.map((item) => {
+              return <li>{item}</li>;
             })}
           </ul>
-        </div>
-      )}
+        )}
+      </div>
 
       <div className="link-repositorio">
-        <MDBBtn size="sm" color="dark" rippleColor="dark">
+        <MDBBtn size="sm">
           Repositório <MDBIcon size="lg" className="ms-1" fab icon="github" />
         </MDBBtn>
         {/* <a href={linkRepositorio}>
