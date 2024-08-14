@@ -19,12 +19,11 @@ export default function Apresentacao() {
             Desenvolvedor Web <MDBIcon className="ms-2" fas icon="code" />
           </h3>
           <p>
-            Atualmente estou cursando a Graduação de{" "}
-            <span className="underline">Sistemas de Informação.</span> Estudo
-            frequentemente diferentes tecnologias e descobri como uma das minhas
-            maiores paixões a possibilidade de criar e dar vida a ideias por
-            meio da programação, desenvolvendo projetos e encontrando desafios,
-            com o objetivo de sempre expandir meu conhecimento. Também
+            Atualmente estou cursando a Graduação de Sistemas de Informação.
+            Estudo frequentemente diferentes tecnologias e descobri como uma das
+            minhas maiores paixões a possibilidade de criar e dar vida a ideias
+            por meio da programação, desenvolvendo projetos e encontrando
+            desafios, com o objetivo de sempre expandir meu conhecimento. Também
             compartilho uma paixão por aprender novas ferramentas e tecnologias
             da área.
           </p>

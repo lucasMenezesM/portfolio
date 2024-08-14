@@ -183,7 +183,6 @@ div #apresentacao {
 @media screen and (max-width: 770px) {
   #apresentacao .container {
     flex-wrap: wrap;
-    /* gap: 5px; */
   }
 }
 
@@ -191,6 +190,12 @@ div #apresentacao {
   #apresentacao .container {
     flex-wrap: wrap;
     gap: 5px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #tecnologias .container {
+    border: none;
   }
 }
 
