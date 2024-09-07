@@ -16,18 +16,14 @@ export default function Projetos() {
           <h3>
             {" "}
             <button className="tecnologias-btn" onClick={handleIsOpen}>
-              {isOpen ? (
-                <MDBIcon fas icon="angle-down" />
-              ) : (
-                <MDBIcon fas icon="angle-up" />
-              )}
+              {isOpen ? <MDBIcon fas icon="angle-down" /> : <MDBIcon fas icon="angle-right" />}
             </button>
             Alguns Projetos
           </h3>
           <p>
-            A seguir, apresento alguns dos projetos que desenvolvi, detalhando
-            as tecnologias utilizadas em cada um deles, juntamente com um link
-            direto para o respectivo repositório no GitHub.
+            A seguir, apresento alguns dos projetos que desenvolvi, detalhando as tecnologias
+            utilizadas em cada um deles, juntamente com um link direto para o respectivo repositório
+            no GitHub.
           </p>
         </div>
         {isOpen && (
@@ -97,18 +93,14 @@ export default function Projetos() {
 
             <ProjetoItem
               titulo={"Dice Roller | Flutter"}
-              descricao={
-                "Projeto de um jogo de dados usando a tecnologia flutter."
-              }
+              descricao={"Projeto de um jogo de dados usando a tecnologia flutter."}
               tecnologias={["Dart", "Flutter"]}
               linkRepositorio1="https://github.com/lucasMenezesM/diceRoller"
             />
 
             <ProjetoItem
               titulo={"Alfa Tech | HTML & CSS"}
-              descricao={
-                "Projeto com HTML e CSS sobre uma empresa fictícia de hospedagens na web."
-              }
+              descricao={"Projeto com HTML e CSS sobre uma empresa fictícia de hospedagens na web."}
               tecnologias={["HTML", "CSS"]}
               linkRepositorio1="https://github.com/lucasMenezesM/alfatech"
             />

@@ -21,11 +21,7 @@ export default function ProjetoItem({
       <h5>
         {" "}
         <button className="tecnologias-btn" onClick={handleIsOpen}>
-          {isOpen ? (
-            <MDBIcon fas icon="angle-down" />
-          ) : (
-            <MDBIcon fas icon="angle-up" />
-          )}
+          {isOpen ? <MDBIcon fas icon="angle-down" /> : <MDBIcon fas icon="angle-right" />}
         </button>
         Tecnologias usadas
       </h5>
@@ -50,8 +46,7 @@ export default function ProjetoItem({
               rippleColor="dark"
               className="link-repositorio-fullstack"
             >
-              Repositório Front End{" "}
-              <MDBIcon size="lg" className="ms-1" fab icon="github" />
+              Repositório Front End <MDBIcon size="lg" className="ms-1" fab icon="github" />
             </MDBBtn>
             <MDBBtn
               href={linkRepositorio2}
@@ -61,18 +56,11 @@ export default function ProjetoItem({
               rippleColor="dark"
               className="link-repositorio-fullstack"
             >
-              Repositório Back End{" "}
-              <MDBIcon size="lg" className="ms-1" fab icon="github" />
+              Repositório Back End <MDBIcon size="lg" className="ms-1" fab icon="github" />
             </MDBBtn>
           </>
         ) : (
-          <MDBBtn
-            href={linkRepositorio1}
-            target="_blank"
-            size="sm"
-            color="dark"
-            rippleColor="dark"
-          >
+          <MDBBtn href={linkRepositorio1} target="_blank" size="sm" color="dark" rippleColor="dark">
             Repositório <MDBIcon size="lg" className="ms-1" fab icon="github" />
           </MDBBtn>
         )}
