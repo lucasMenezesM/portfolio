@@ -9,8 +9,9 @@ import {
   FaBootstrap,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiFlask, SiPandas } from "react-icons/si";
-import { DiMongodb, DiMysql } from "react-icons/di";
+import { SiFlask, SiPandas, SiRubyonrails } from "react-icons/si";
+import { DiMongodb, DiMysql, DiRuby } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export default function Tecnologias() {
   return (
@@ -61,12 +62,16 @@ export default function Tecnologias() {
             <p>MongoDB</p>
           </div>
           <div>
-            <SiPandas size={50} />
-            <p>Pandas</p>
+            <DiRuby size={50} />
+            <p>Ruby</p>
           </div>
           <div>
-            <FaGit size={50} />
-            <p>GIT</p>
+            <SiRubyonrails size={50} />
+            <p>Rails</p>
+          </div>
+          <div>
+            <BiLogoPostgresql size={50} />
+            <p>PostgreSQL</p>
           </div>
           <div>
             <FaBootstrap size={50} />

@@ -103,6 +103,9 @@ div #apresentacao {
   /* padding-left: 15px; */
   padding: 15px;
   /* padding: 15px 15px 15px 15px; */
+  /* transition: all 0.5s; */
+  /* opacity: 0; Começa invisível */
+  animation: fadeInAnimation 2s forwards; /* Animação de 2 segundos */
   margin-top: 25px;
   height: 670px;
   overflow-y: scroll;
@@ -117,6 +120,10 @@ div #apresentacao {
 #projetos p {
   line-height: 30px;
   text-align: justify;
+}
+
+.tecnologias-projeto-container {
+  height: 35px;
 }
 
 .tecnologias-usadas-projetos ul {
@@ -173,20 +180,52 @@ div #apresentacao {
   line-height: 32px;
 }
 
-/* Seção formacao */
+/* Seção Experiencias */
 
-#formacao {
-  margin-top: 85px;
+.tecnologias-experiencia {
+  margin: 12px 0;
+  height: 70px;
+  /* border: 1px solid red; */
 }
 
-.formacao-container {
+.lista-tecnologias-experiencia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 2px 5px;
+}
+
+.lista-tecnologias-experiencia div {
+  transition: all 0.6s;
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+
+.lista-tecnologias-experiencia div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Seção formacao */
+
+#formacao,
+#experiencia {
+  margin-top: 70px;
+}
+
+.formacao-container,
+.experiencia-container {
   border-left: 5px solid rgb(51, 45, 45);
   border-radius: 2px;
   padding: 15px;
   margin-top: 25px;
 }
 
-.formacao-container p {
+.formacao-container p,
+.experiencia-container p {
   margin: 0;
 }
 

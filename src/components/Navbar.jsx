@@ -15,6 +15,9 @@ export default function NavBar() {
             <Nav.Link className="text-white" href="#tecnologias">
               Tecnologias
             </Nav.Link>
+            <Nav.Link className="text-white" href="#experiencias">
+              Experiencias
+            </Nav.Link>
             <Nav.Link className="text-white" href="#projetos">
               Projetos
             </Nav.Link>
