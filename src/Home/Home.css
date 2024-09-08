@@ -182,10 +182,18 @@ div #apresentacao {
 
 /* Seção Experiencias */
 
+#experiencias .experiencia-empresa {
+  margin-bottom: 10px;
+}
+
+.icon-empresa-experiencia,
+.icon-periodo-experiencia {
+  margin-bottom: 3px;
+}
+
 .tecnologias-experiencia {
   margin: 12px 0;
-  height: 70px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .lista-tecnologias-experiencia {

@@ -1,8 +1,8 @@
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { DiRuby } from "react-icons/di";
 import { SiRubyonrails } from "react-icons/si";
-import { FaHtml5, FaCss3, FaBootstrap } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaHtml5, FaCss3, FaBootstrap, FaCalendarAlt } from "react-icons/fa";
+import { BiLogoPostgresql, BiSolidBusiness } from "react-icons/bi";
 import { useState } from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
 import { AnimatePresence, motion } from "framer-motion";
@@ -24,6 +24,10 @@ export default function Experiencia() {
               {" "}
               <LiaLaptopCodeSolid size={25} /> Desenvolvedor Fullstack
             </h5>
+            <p className="experiencia-empresa">
+              <BiSolidBusiness className="icon-empresa-experiencia" />{" "}
+              <span className="bold">Empresa:</span> Instituto Federal Fluminense
+            </p>
             <p>
               Bolsa no Desenvolvimento de sistemas web para informatizar e otimizar processos dos
               setores administrativos do campus do Instituto Federal Fluminense.
@@ -79,7 +83,11 @@ export default function Experiencia() {
                 )}
               </AnimatePresence>
             </div>
-            <p>Setembro/2024 - Atualmente</p>
+            <p>
+              <FaCalendarAlt className="icon-periodo-experiencia" />{" "}
+              <span className="bold">Período: </span>
+              Setembro/2024 - Atualmente
+            </p>
           </div>
         </div>
       </div>
