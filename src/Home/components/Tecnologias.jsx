@@ -4,7 +4,7 @@ import {
   FaPython,
   FaPhp,
   FaNode,
-  FaGit,
+  FaGitAlt,
   FaReact,
   FaBootstrap,
 } from "react-icons/fa";
@@ -68,6 +68,10 @@ export default function Tecnologias() {
           <div>
             <SiRubyonrails size={50} />
             <p>Rails</p>
+          </div>
+          <div>
+            <FaGitAlt size={50} />
+            <p>Git</p>
           </div>
           <div>
             <BiLogoPostgresql size={50} />

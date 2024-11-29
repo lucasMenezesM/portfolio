@@ -1,7 +1,7 @@
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { DiRuby } from "react-icons/di";
 import { SiRubyonrails } from "react-icons/si";
-import { FaHtml5, FaCss3, FaBootstrap, FaCalendarAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaBootstrap, FaCalendarAlt, FaGitAlt } from "react-icons/fa";
 import { BiLogoPostgresql, BiSolidBusiness } from "react-icons/bi";
 import { useState } from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
@@ -58,6 +58,11 @@ export default function Experiencia() {
                     <div>
                       <SiRubyonrails />
                       Rails
+                    </div>
+
+                    <div>
+                      <FaGitAlt />
+                      Git
                     </div>
 
                     <div>
