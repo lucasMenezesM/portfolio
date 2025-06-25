@@ -37,7 +37,7 @@ export default function Projetos() {
               className="projetos-container"
             >
               <ProjetoItem
-                titulo={"Reserva de Salas | Ruby On Rails"}
+                titulo={"Sistema de Reserva de Salas | Ruby On Rails"}
                 descricao={
                   "Projeto de uma aplicação web para o gerenciamento de reservas de salas, desenvolvido com Ruby on Rails. O objetivo é permitir que os usuários façam reservas de salas, visualizem disponibilidade e gerenciem suas reservas por meio de consultas avançadas no banco de dados PostgreSQL."
                 }
@@ -80,7 +80,7 @@ export default function Projetos() {
                   "Front End de um projeto de uma plataforma de cursos online, desenvolvido com React e Typescript. O objetivo é permitir que os usuários se inscrevam em cursos, visualizem detalhes dos cursos e gerenciem suas inscrições."
                 }
                 tecnologias={["React", "Typescript"]}
-                linkRepositorio1="https://github.com/lucasMenezesM/flask-books-api"
+                linkRepositorio1="https://github.com/lucasMenezesM/dev-learn-react-ts"
               />
 
               <ProjetoItem
