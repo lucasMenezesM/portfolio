@@ -37,6 +37,15 @@ export default function Projetos() {
               className="projetos-container"
             >
               <ProjetoItem
+                titulo={"Reserva de Salas | Ruby On Rails"}
+                descricao={
+                  "Projeto de uma aplicação web para o gerenciamento de reservas de salas, desenvolvido com Ruby on Rails. O objetivo é permitir que os usuários façam reservas de salas, visualizem disponibilidade e gerenciem suas reservas por meio de consultas avançadas no banco de dados PostgreSQL."
+                }
+                tecnologias={["Ruby", "Rails", "PostgreSQL", "Bootstrap"]}
+                linkRepositorio1="https://github.com/lucasMenezesM/reserva-de-sala"
+              />
+
+              <ProjetoItem
                 titulo={"API Books | Flask"}
                 descricao={
                   "API feita em Python com framework FLASK. O objetivo dessa API é fazer o gerenciamento, incluindo operações CRUD, de uma biblioteca virtual com sistemas de autenticação. Essa API conta com uma integração do banco de dados PostgreSQL, onde é usado o auxílio do flask SQLalchemy."
@@ -63,6 +72,15 @@ export default function Projetos() {
                 fullStack={true}
                 linkRepositorio1="https://github.com/lucasMenezesM/task-manager_frontend"
                 linkRepositorio2="https://github.com/lucasMenezesM/api-taskManager"
+              />
+
+              <ProjetoItem
+                titulo={"Plataforma de Cursos Online | React com Typescript"}
+                descricao={
+                  "Front End de um projeto de uma plataforma de cursos online, desenvolvido com React e Typescript. O objetivo é permitir que os usuários se inscrevam em cursos, visualizem detalhes dos cursos e gerenciem suas inscrições."
+                }
+                tecnologias={["React", "Typescript"]}
+                linkRepositorio1="https://github.com/lucasMenezesM/flask-books-api"
               />
 
               <ProjetoItem
