@@ -98,17 +98,33 @@ div #apresentacao {
 }
 
 .projetos-container {
-  border-left: 5px solid rgb(51, 45, 45);
-  border-radius: 2px;
   /* padding-left: 15px; */
-  padding: 15px;
   /* padding: 15px 15px 15px 15px; */
   /* transition: all 0.5s; */
   /* opacity: 0; Começa invisível */
   animation: fadeInAnimation 2s forwards; /* Animação de 2 segundos */
+}
+
+.projetos-lista-container {
+  border-left: 5px solid rgb(51, 45, 45);
+  border-radius: 2px;
+  padding: 15px;
   margin-top: 25px;
   height: 670px;
   overflow-y: scroll;
+}
+
+.projeto-card {
+  width: 100%;
+  /* max-width: 400px; */
+  width: calc((100% / 3) - 20px);
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.18), 0 1.5px 6px 0 rgba(51, 45, 45, 0.12) !important;
+
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.01);
+  }
 }
 
 .projeto-box {
@@ -236,9 +252,42 @@ div #apresentacao {
   margin: 0;
 }
 
+.navbar-projetos .navbar-btn {
+  background: transparent;
+  border: 2px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.navbar-projetos .navbar-btn:hover {
+  border-color: rgb(51, 45, 45);
+  color: rgb(51, 45, 45);
+}
+
+.navbar-projetos .navbar-btn.active {
+  background: rgb(51, 45, 45);
+  color: white;
+  border-color: rgb(51, 45, 45);
+}
+
+@media screen and (max-width: 1100px) {
+  .projeto-card {
+    width: calc((100% / 2) - 20px);
+  }
+}
+
 @media screen and (max-width: 770px) {
   .projeto-box {
     width: calc(100% - 10px);
+  }
+
+  .projeto-card {
+    width: calc(100% - 20px);
   }
 }
 
