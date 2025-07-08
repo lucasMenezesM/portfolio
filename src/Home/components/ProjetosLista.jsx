@@ -3,6 +3,14 @@ export default function ProjectsList() {
   return (
     <div className="projetos-lista-container">
       <ProjetoItem
+        titulo={"SPro Services | Ruby On Rails (em progresso)"}
+        descricao={
+          "Projeto de Plataforma web desenvolvida em Ruby em Rails junto com diversas gems, que permite trabalhadores autônomos e freelancers oferecerem seus serviços, enquanto clientes podem contratar esses serviços. A plataforma inclui funcionalidades de autenticação, gerenciamento de perfis e criação de anúncios de serviços."
+        }
+        tecnologias={["Ruby", "Rails", "PostgreSQL", "TailwindCSS"]}
+        linkRepositorio1="https://github.com/lucasMenezesM/pro-services-rails"
+      />
+      <ProjetoItem
         titulo={"Sistema de Reserva de Salas | Ruby On Rails"}
         descricao={
           "Projeto de uma aplicação web para o gerenciamento de reservas de salas, desenvolvido com Ruby on Rails. O objetivo é permitir que os usuários façam reservas de salas, visualizem disponibilidade e gerenciem suas reservas por meio de consultas avançadas no banco de dados PostgreSQL."

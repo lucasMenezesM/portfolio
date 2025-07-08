@@ -19,6 +19,7 @@ import { DiMongodb, DiMysql, DiRuby } from "react-icons/di";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const TecnologiaIcons = {
   html: <FaHtml5 color="#e34c26" />,
@@ -41,6 +42,7 @@ const TecnologiaIcons = {
   dart: <FaDartLang color="#0175C2" />,
   typescript: <SiTypescript color="#007acc" />,
   express: <SiExpress color="#000000" />,
+  tailwindcss: <RiTailwindCssFill color="#38bdf8" />,
 };
 
 export default function ProjectCard({

@@ -20,48 +20,6 @@ export default function Tecnologias() {
         <h3>Tecnologias que tenho conhecimento:</h3>
         <div className="lista-tecnologias">
           <div>
-            <FaHtml5 size={50} />
-            <p>html</p>
-          </div>
-          <div>
-            <FaCss3 size={50} />
-            <p>CSS</p>
-          </div>
-
-          <div>
-            <IoLogoJavascript size={50} />
-            <p>Javascript</p>
-          </div>
-
-          <div>
-            <FaNode size={50} />
-            <p>NodeJs</p>
-          </div>
-          <div>
-            <FaPython size={50} />
-            <p>Python</p>
-          </div>
-          <div>
-            <SiFlask size={50} />
-            <p>Flask</p>
-          </div>
-          <div>
-            <FaPhp size={50} />
-            <p>PHP</p>
-          </div>
-          <div>
-            <DiMysql size={50} />
-            <p>MySQL</p>
-          </div>
-          <div>
-            <FaReact size={50} />
-            <p>ReactJs</p>
-          </div>
-          <div>
-            <DiMongodb size={50} />
-            <p>MongoDB</p>
-          </div>
-          <div>
             <DiRuby size={50} />
             <p>Ruby</p>
           </div>
@@ -70,12 +28,48 @@ export default function Tecnologias() {
             <p>Rails</p>
           </div>
           <div>
+            <FaPython size={50} />
+            <p>Python</p>
+          </div>
+          <div>
             <FaGitAlt size={50} />
             <p>Git</p>
           </div>
           <div>
+            <IoLogoJavascript size={50} />
+            <p>Javascript</p>
+          </div>
+          <div>
+            <FaReact size={50} />
+            <p>ReactJs</p>
+          </div>
+          <div>
+            <FaNode size={50} />
+            <p>NodeJs</p>
+          </div>
+          <div>
+            <SiFlask size={50} />
+            <p>Flask</p>
+          </div>
+          <div>
+            <DiMysql size={50} />
+            <p>MySQL</p>
+          </div>
+          <div>
+            <DiMongodb size={50} />
+            <p>MongoDB</p>
+          </div>
+          <div>
             <BiLogoPostgresql size={50} />
             <p>PostgreSQL</p>
+          </div>
+          <div>
+            <FaHtml5 size={50} />
+            <p>html</p>
+          </div>
+          <div>
+            <FaCss3 size={50} />
+            <p>CSS</p>
           </div>
           <div>
             <FaBootstrap size={50} />

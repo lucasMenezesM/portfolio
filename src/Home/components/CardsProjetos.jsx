@@ -4,6 +4,15 @@ export default function CardsProjetos() {
   return (
     <div className="projetos-cards-container d-flex flex-wrap gap-4">
       <ProjetoItemCard
+        titulo={"Pro Services | Ruby On Rails (em progresso)"}
+        descricao={
+          "Projeto de Plataforma web desenvolvida em Ruby em Rails em conjunto com diversas gems, que permite trabalhadores autônomos e freelancers oferecerem seus serviços, enquanto clientes podem contratar esses serviços. A plataforma inclui funcionalidades de autenticação, gerenciamento de perfis e criação de anúncios de serviços."
+        }
+        tecnologias={["ruby", "rubyonrails", "postgresql", "tailwindcss"]}
+        github={"https://github.com/lucasMenezesM/pro-services-rails"}
+        imagem={"/images/projects/pro-services-rails-image.png"}
+      />
+      <ProjetoItemCard
         titulo={"Sistema de Reserva de Salas | Ruby On Rails"}
         descricao={
           "Projeto de uma aplicação web para o gerenciamento de reservas de salas, desenvolvido com Ruby on Rails. O objetivo é permitir que os usuários façam reservas de salas, visualizem disponibilidade e gerenciem suas reservas por meio de consultas avançadas no banco de dados PostgreSQL."

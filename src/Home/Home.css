@@ -116,7 +116,6 @@ div #apresentacao {
 
 .projeto-card {
   width: 100%;
-  /* max-width: 400px; */
   width: calc((100% / 3) - 20px);
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.18), 0 1.5px 6px 0 rgba(51, 45, 45, 0.12) !important;
 
