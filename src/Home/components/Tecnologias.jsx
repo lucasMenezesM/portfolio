@@ -1,15 +1,6 @@
-import {
-  FaHtml5,
-  FaCss3,
-  FaPython,
-  FaPhp,
-  FaNode,
-  FaGitAlt,
-  FaReact,
-  FaBootstrap,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3, FaPython, FaNode, FaGitAlt, FaReact, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiFlask, SiPandas, SiRubyonrails } from "react-icons/si";
+import { SiFlask, SiRubyonrails } from "react-icons/si";
 import { DiMongodb, DiMysql, DiRuby } from "react-icons/di";
 import { BiLogoPostgresql } from "react-icons/bi";
 

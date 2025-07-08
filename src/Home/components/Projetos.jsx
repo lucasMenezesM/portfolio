@@ -31,8 +31,6 @@ export default function Projetos() {
           </p>
         </div>
 
-        <NavbarProjetos cardsSelected={cardsSelected} onSelectView={setCardsSelected} />
-
         <AnimatePresence>
           {isOpen && (
             <motion.div
@@ -42,6 +40,7 @@ export default function Projetos() {
               transition={{ duration: 0.2 }}
               className="projetos-container"
             >
+              <NavbarProjetos cardsSelected={cardsSelected} onSelectView={setCardsSelected} />
               {cardsSelected ? <CardsProjetos /> : <ProjectsList />}
             </motion.div>
           )}
