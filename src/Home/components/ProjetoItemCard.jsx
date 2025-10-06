@@ -11,6 +11,8 @@ import {
   FaJsSquare,
 } from "react-icons/fa";
 
+import { RiNextjsFill } from "react-icons/ri";
+
 import { FaDartLang, FaFlutter } from "react-icons/fa6";
 
 import { SiFlask, SiPandas, SiRubyonrails, SiTypescript, SiExpress } from "react-icons/si";
@@ -43,6 +45,7 @@ const TecnologiaIcons = {
   typescript: <SiTypescript color="#007acc" />,
   express: <SiExpress color="#000000" />,
   tailwindcss: <RiTailwindCssFill color="#38bdf8" />,
+  nextjs: <RiNextjsFill color="#000000" />,
 };
 
 export default function ProjectCard({
@@ -104,7 +107,7 @@ export default function ProjectCard({
 
           {linkedin && (
             <Button variant="outline-primary" size="sm" href={linkedin} target="_blank">
-              <FaLinkedin style={{ fontSize: "1.25rem" }} />
+              Publicação <FaLinkedin style={{ fontSize: "1.25rem" }} />
             </Button>
           )}
         </div>

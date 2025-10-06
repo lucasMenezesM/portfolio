@@ -13,6 +13,35 @@ export default function CardsProjetos() {
         imagem={"/images/projects/pro-services-rails-image.png"}
       />
       <ProjetoItemCard
+        titulo={"Rede Neural para identificação de dígitos | Python (Flask) e NextJS"}
+        descricao={
+          "Rede Neural que identifica dígitos desenhados pelo usuário na interface. Aplicação desenvolvida em python com a biblioteca NumPy, integrada a uma API construída em Flask. Interface gráfica feita em NextJS com Typescript."
+        }
+        tecnologias={["python", "flask", "nextjs", "typescript", "tailwindcss"]}
+        imagem={"/images/projects/rede-neural-image.png"}
+        github={"https://github.com/lucasMenezesM/rede-neural-python"}
+      />
+      <ProjetoItemCard
+        titulo={
+          "Sistema para identificar risco de Hipertensão utilizando Lógica Fuzzy | Python (Flask) e NextJS"
+        }
+        descricao={
+          "A aplicação tem o objetivo de coletar dados do usuário para fazer possíveis diagnósticos de hipertensão. O sistema foi desenvolvido em python, utilizando bibliotecas como skfuzzy e numpy, integrado a uma api construída em Flask. A interface gráfica por meio da qual o usuário interage foi desenvolvida com NextJS e Typescript."
+        }
+        tecnologias={["python", "flask", "nextjs", "typescript", "tailwindcss"]}
+        imagem={"/images/projects/logica-fuzzy-image.png"}
+        github={"https://github.com/lucasMenezesM/logica-fuzzy/"}
+      />
+      <ProjetoItemCard
+        titulo={"Site da empresa Junior Aurea | React com Typescript"}
+        descricao={
+          "Site da Aurea Soluções, empresa junior, desenvolvido no processo de trainee da empresa. Foi utilizado React com Typescript, TailwindCSS e a biblioteca de componentes ShadCN/UI para o desenvolvimento das interfaces, com outras biblitoecas para complementar o desenvolvimento como: framer-motion, react-icons, Swiper, dentre outras."
+        }
+        imagem={"/images/projects/projeto-aurea-image.png"}
+        tecnologias={["react", "typescript", "tailwindcss"]}
+        github={"https://github.com/lucasMenezesM/projeto-aurea"}
+      />
+      <ProjetoItemCard
         titulo={"Sistema de Reserva de Salas | Ruby On Rails"}
         descricao={
           "Projeto de uma aplicação web para o gerenciamento de reservas de salas, desenvolvido com Ruby on Rails. O objetivo é permitir que os usuários façam reservas de salas, visualizem disponibilidade e gerenciem suas reservas por meio de consultas avançadas no banco de dados PostgreSQL."
@@ -26,7 +55,7 @@ export default function CardsProjetos() {
       />
 
       <ProjetoItemCard
-        titulo={"API Books | Flask"}
+        titulo={"API Books | Python (Flask)"}
         descricao={
           "API feita em Python com framework FLASK. O objetivo dessa API é fazer o gerenciamento, incluindo operações CRUD, de uma biblioteca virtual com sistemas de autenticação. Essa API conta com uma integração do banco de dados PostgreSQL, onde é usado o auxílio do flask SQLalchemy."
         }
@@ -34,6 +63,7 @@ export default function CardsProjetos() {
         github={"https://github.com/lucasMenezesM/flask-books-api"}
         tecnologias={["python", "flask", "postgresql"]}
       />
+
       <ProjetoItemCard
         titulo={"Projeto Full stack - Task Manager | MERN Stack"}
         descricao={
@@ -64,6 +94,7 @@ export default function CardsProjetos() {
         tecnologias={["react", "javascript"]}
         imagem={"/images/projects/portfolio-image.png"}
         github={"https://github.com/lucasMenezesM/portfolio"}
+        linkedin={"https://www.linkedin.com/in/lucas-menezes-023600279/details/projects/"}
       />
 
       <ProjetoItemCard
